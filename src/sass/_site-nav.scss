@@ -41,6 +41,15 @@
     }
 }
 
+.site-nav__link {
+    color: $accent-color;
+
+    &:hover,
+    &:focus {
+        color: $primary-white-color;
+    }
+}
+
 .site-nav__button--black {
     color: $primary-white-color;
     background-color: $accent-color;
