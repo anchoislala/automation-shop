@@ -45,10 +45,15 @@
 
 .hero__title {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1.18;
     margin-bottom: 20px;
     color: $primary-white-color;
+
+    @media screen and (min-width: 1280px) {
+        font-size: 72px;
+        letter-spacing: 0.05em;
+    }
 }
 
 .hero__after-title {

@@ -30,9 +30,10 @@ img {
 .page-body {
     background-color: $primary-white-color;
     color: $primary-text-color;
-    font-family: Golos, sans-serif;
+    font-family: 'Golos Text', sans-serif;
     font-size: 14px;
     line-height: 1.14;
+    font-weight: 400;
 
     @media screen and (min-width: 768px) {
         font-size: 16px;
