@@ -1,0 +1,43 @@
+.guarantee {
+    margin-bottom: 32px;
+    font-weight: 600;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 60px;
+    }
+}
+
+.guarantee__title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-bottom: 12px;
+    color: $title-text-color;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: 0.24px;
+        margin-bottom: 24px;
+    }
+}
+
+.guarantee__text {
+    color: $title-text-color;
+}
+
+.after-title {
+    margin-top: 32px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-top: 60px;
+    }
+}

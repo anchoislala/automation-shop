@@ -528,7 +528,7 @@ img {
 
 .hero__title {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 1.18;
   margin-bottom: 20px;
   color: #FFFFFF;
@@ -890,10 +890,12 @@ img {
 
 .products-about__section {
   padding-top: 40px;
+  padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
   .products-about__section {
+    padding-top: 60px;
     border-top: 1px solid #E9E9E9;
   }
 }
@@ -1126,6 +1128,118 @@ img {
   color: #202226;
   background-color: #FFFFFF;
   border: 2px solid #161616;
+}
+
+.shipping {
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .shipping {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .shipping {
+    margin-bottom: 60px;
+  }
+}
+
+.shipping__title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  margin-bottom: 12px;
+  color: #161616;
+}
+
+@media screen and (min-width: 768px) {
+  .shipping__title {
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.24px;
+    margin-bottom: 24px;
+  }
+}
+
+.shipping__text {
+  color: #161616;
+}
+
+.delivery {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .delivery {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .delivery {
+    margin-bottom: 60px;
+  }
+}
+
+.after-title {
+  margin-bottom: 7px;
+}
+
+.guarantee {
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .guarantee {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .guarantee {
+    margin-bottom: 60px;
+  }
+}
+
+.guarantee__title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  margin-bottom: 12px;
+  color: #161616;
+}
+
+@media screen and (min-width: 768px) {
+  .guarantee__title {
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.24px;
+    margin-bottom: 24px;
+  }
+}
+
+.guarantee__text {
+  color: #161616;
+}
+
+.after-title {
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .after-title {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .after-title {
+    margin-top: 60px;
+  }
 }
 
 .footer {

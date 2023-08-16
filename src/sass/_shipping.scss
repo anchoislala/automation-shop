@@ -1,0 +1,46 @@
+.shipping {
+    margin-bottom: 32px;
+    font-weight: 600;
+
+    @media screen and (min-width: 768px) {
+            margin-bottom: 40px;
+        }
+    
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 60px;
+    }
+}
+
+.shipping__title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.33;
+        margin-bottom: 12px;
+        color: $title-text-color;
+
+    @media screen and (min-width: 768px) {
+            font-size: 24px;
+            line-height: 1.16;
+            letter-spacing: 0.24px;
+            margin-bottom: 24px;
+        }
+}
+
+.shipping__text {
+    color: $title-text-color;
+}
+
+.delivery {
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+            margin-bottom: 40px;
+        }
+    
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 60px;
+        }
+}
+
+.after-title {
+    margin-bottom: 7px;
+}
