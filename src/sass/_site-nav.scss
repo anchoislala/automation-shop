@@ -68,6 +68,7 @@
 
 .site-nav__left--mobile {
     display: flex;
+    align-items: center;
 }
 
 .mobile-button {
@@ -83,4 +84,32 @@
 
 .site-nav__left--mobile--button:not(:last-child) {
     margin-right: 8px;   
+}
+
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.input-search {
+    transition: all 1s;
+    width: 200px;         
+    height: 35px;
+    padding: 5 7 5 7;
+    border-color: $bc-color;
+    border-radius: 8px;
+
+    @media screen and (max-width: 767px) {
+        margin-right: 8px;
+    }
+}
+
+.input {
+    width: 0;
+    height: 35px;
+    border-color: $bc-color;
+    border-radius: 8px;
+    opacity:0;
+    transition: all 1s;
 }
